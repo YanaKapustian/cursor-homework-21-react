@@ -1,0 +1,29 @@
+@import "~bootstrap/scss/bootstrap";
+.container {
+    width: 70%;
+    margin: 0 auto;
+    h1 {
+      font-size: 23px;
+      text-align: center;
+      margin: 20px 0;
+    }
+    .input-group {
+        width: 500px;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .form-check {
+      font-size: 18px;
+    }
+    .form-check-input {
+      width: 40px;
+      height: 22px;
+    }
+    .form-check-label {
+      margin-top: 2px;
+    }
+}
+  

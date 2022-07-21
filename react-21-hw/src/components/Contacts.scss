@@ -1,0 +1,19 @@
+.contact-item {
+    margin: 15px 0;
+    .info {
+        font-size: 20px;
+        .female {
+            width: 19px;
+            height: 19px;
+            margin-left: 5px;
+        }
+        .male {
+            width: 16px;
+            height: 16px;
+            margin-left: 5px;
+        }
+    }
+    &:nth-child(even) {
+        background-color: rgb(240, 240, 240);
+    }
+}
